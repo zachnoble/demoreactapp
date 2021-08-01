@@ -1,0 +1,36 @@
+{
+  "name": "demoreactapp",
+  "version": "0.0.0",
+  "description": "Learning how React Works",
+  "homepage": "https://github.com/zachnoble/demoreactapp/",
+  "author": "Zachary Noble",
+  "type": "module",
+  "scripts": {
+    "dc": "vite --mode development serve client ",
+    "ds": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zachnoble/demoreactapp.git"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.3.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-compat": "^3.11.1",
+    "eslint-plugin-react": "^7.24.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "vite": "^2.4.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "browserslist": [
+    ">2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
